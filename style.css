@@ -14,12 +14,6 @@ body {
     "sidebar dashboard";
 }
 
-#sidebar {
-  grid-area: sidebar;
-
-  background-color: #1992d4;
-}
-
 #dashboard {
   grid-area: dashboard;
 
@@ -30,4 +24,16 @@ body {
   grid-area: header;
 
   box-shadow: 0px 3px 10px 1px gray;
+}
+
+#sidebar {
+  grid-area: sidebar;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px;
+  grid-auto-rows: 1fr;
+  gap: 30px;
+
+  background-color: #1992d4;
 }
