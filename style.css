@@ -101,9 +101,17 @@ body {
   width: 60px;
 }
 
+#sidebar .menu .option {
+  height: 40px;
+}
+
 #sidebar .menu .option p {
   font-size: 20px;
   font-weight: 600;
+}
+
+#sidebar .menu.last {
+  justify-content: end;
 }
 
 img {
