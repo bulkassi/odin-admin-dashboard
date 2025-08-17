@@ -61,4 +61,30 @@ body {
   gap: 30px;
 
   background-color: #1992d4;
+  color: white;
+
+  padding: 20px;
+}
+
+#sidebar #logo,
+#sidebar div .option {
+  display: flex;
+  gap: 12px;
+}
+
+#sidebar #logo img,
+#sidebar div .option img {
+  /* Set the color to white */
+  filter: brightness(0) saturate(100%) invert(100%);
+}
+
+#sidebar #logo p,
+#sidebar div .option p {
+  display: flex;
+  align-items: center;
+}
+
+#sidebar #logo {
+  font-size: 32px;
+  font-weight: 600;
 }
