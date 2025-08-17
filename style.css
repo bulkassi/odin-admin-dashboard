@@ -66,20 +66,27 @@ body {
   padding: 20px;
 }
 
-#sidebar #logo,
-#sidebar div .option {
+#sidebar .menu {
   display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#sidebar #logo,
+#sidebar .menu .option {
+  display: flex;
+  align-items: center;
   gap: 12px;
 }
 
 #sidebar #logo img,
-#sidebar div .option img {
+#sidebar .menu .option img {
   /* Set the color to white */
   filter: brightness(0) saturate(100%) invert(100%);
 }
 
 #sidebar #logo p,
-#sidebar div .option p {
+#sidebar .menu .option p {
   display: flex;
   align-items: center;
 }
@@ -87,4 +94,19 @@ body {
 #sidebar #logo {
   font-size: 32px;
   font-weight: 600;
+}
+
+#sidebar #logo img {
+  height: 60px;
+  width: 60px;
+}
+
+#sidebar .menu .option p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+img {
+  height: 30px;
+  width: 30xpx;
 }
